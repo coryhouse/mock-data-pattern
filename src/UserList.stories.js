@@ -4,5 +4,5 @@ import UserList from "./UserList";
 import { users } from "./mockData";
 
 storiesOf("UserList", module)
-  .add("default", () => <UserList users={users} />)
+  .add("with populated list", () => <UserList users={users} />)
   .add("with empty list", () => <UserList />);
