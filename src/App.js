@@ -9,6 +9,9 @@ class App extends Component {
     users: []
   };
 
+  // Calling hard coded mock data, but the
+  // data is abstracted behind an async function
+  // to simulate an async call to an HTTP endpoint.
   async componentDidMount() {
     this._mounted = true;
     const users = await getUsers();
