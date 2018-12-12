@@ -1,6 +1,6 @@
 # Mock Data Pattern
 
-This project showcases the mock data pattern. A centralized mock data file drives three different use cases:
+This project showcases how to use centralized mock data using React. A centralized mock data file drives three different use cases:
 
 1. Storybook stories
 2. Automated tests
@@ -28,5 +28,3 @@ Don't want to create hard coded data? Want to simulate creates, updates, and del
 ## Looking for more on JavaScript and React?
 
 [Check out my Pluralsight courses](https://app.pluralsight.com/profile/author/cory-house).
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
