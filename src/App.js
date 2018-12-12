@@ -24,10 +24,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <p>
-          This app uses the same mock data as the storybook story and the
-          automated test. See README.md for more info.
-        </p>
+        <p>This app uses the same mock data in three spots:</p>
+        <ol>
+          <li>This app</li>
+          <li>Storybook</li>
+          <li>Automated tests</li>
+        </ol>
+        <p>See README.md for more info.</p>
+
+        <hr />
         <UserList users={this.state.users} />
       </div>
     );
