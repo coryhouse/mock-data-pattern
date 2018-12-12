@@ -26,20 +26,8 @@ class App extends Component {
       <div className="App">
         <p>
           This app uses the same mock data as the storybook story and the
-          automated test. For the app, the mock data is delivered via an async
-          function to simulate making an async call to an API over HTTP.
+          automated test. See README.md for more info.
         </p>
-
-        <p>
-          To see the mock data in use check four files:
-          <ol>
-            <li>App.js</li>
-            <li>api/mockUserApi.js</li>
-            <li>UserList.stories.js</li>
-            <li>UserList.test.js</li>
-          </ol>
-        </p>
-
         <UserList users={this.state.users} />
       </div>
     );
